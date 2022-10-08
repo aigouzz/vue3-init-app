@@ -18,9 +18,9 @@ import TheWelcome from "../components/TheWelcome.vue";
       <LeftMessage msg="个人博客" />
 
       <nav>
-        <RouterLink to="/">个人介绍</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/father">Father</RouterLink>
+        <a href="/introduce" target="_blank">个人介绍</a>
+        <a href="/music" target="_blank">听音乐</a>
+        <a href="/shop" target="_blank">购物</a>
       </nav>
     </div>
   </header>
