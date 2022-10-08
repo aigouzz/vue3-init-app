@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import WelcomeItem from './WelcomeItem.vue'
-import DocumentationIcon from './icons/IconDocumentation.vue'
-import ToolingIcon from './icons/IconTooling.vue'
-import EcosystemIcon from './icons/IconEcosystem.vue'
-import CommunityIcon from './icons/IconCommunity.vue'
-import SupportIcon from './icons/IconSupport.vue'
+import WelcomeItem from "./WelcomeItem.vue";
+import DocumentationIcon from "./icons/IconDocumentation.vue";
+import ToolingIcon from "./icons/IconTooling.vue";
+import EcosystemIcon from "./icons/IconEcosystem.vue";
+import CommunityIcon from "./icons/IconCommunity.vue";
+import SupportIcon from "./icons/IconSupport.vue";
 </script>
 
 <template>
@@ -12,75 +12,76 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #icon>
       <DocumentationIcon />
     </template>
-    <template #heading>Documentation</template>
+    <template #heading>毕业学校</template>
 
-    Vue’s
-    <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a>
-    provides you with all information you need to get started.
+    <a href="https://www.bupt.edu.cn/" target="_blank" rel="noopener">北京邮电大学</a>
+    2009-2013
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <ToolingIcon />
     </template>
-    <template #heading>Tooling</template>
+    <template #heading>专业</template>
 
-    This project is served and bundled with
-    <a href="https://vitejs.dev/guide/features.html" target="_blank" rel="noopener">Vite</a>. The
-    recommended IDE setup is
-    <a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VSCode</a> +
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank" rel="noopener">Volar</a>. If
-    you need to test your components and web pages, check out
-    <a href="https://www.cypress.io/" target="_blank" rel="noopener">Cypress</a> and
-    <a href="https://on.cypress.io/component" target="_blank">Cypress Component Testing</a>.
-
+    信息管理与信息系统
+    <a
+      href="https://baike.baidu.com/item/%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86%E4%B8%8E%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F/890173?fr=aladdin"
+      target="_blank"
+      rel="noopener"
+      >专业</a
+    >
     <br />
-
-    More instructions are available in <code>README.md</code>.
+    <a href="https://code.visualstudio.com/" target="_blank" rel="noopener"
+      >VSCode</a
+    >
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <EcosystemIcon />
     </template>
-    <template #heading>Ecosystem</template>
+    <template #heading>职业</template>
 
-    Get official tools and libraries for your project:
-    <a href="https://pinia.vuejs.org/" target="_blank" rel="noopener">Pinia</a>,
-    <a href="https://router.vuejs.org/" target="_blank" rel="noopener">Vue Router</a>,
-    <a href="https://test-utils.vuejs.org/" target="_blank" rel="noopener">Vue Test Utils</a>, and
-    <a href="https://github.com/vuejs/devtools" target="_blank" rel="noopener">Vue Dev Tools</a>. If
-    you need more resources, we suggest paying
-    <a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">Awesome Vue</a>
-    a visit.
+    前端开发工程师
+    <br />
+    <a href="https://baike.baidu.com/item/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91?fromModule=lemma_search-box" target="_blank" rel="noopener">链接</a>
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <CommunityIcon />
     </template>
-    <template #heading>Community</template>
+    <template #heading>特长</template>
 
-    Got stuck? Ask your question on
-    <a href="https://chat.vuejs.org" target="_blank" rel="noopener">Vue Land</a>, our official
-    Discord server, or
-    <a href="https://stackoverflow.com/questions/tagged/vue.js" target="_blank" rel="noopener"
-      >StackOverflow</a
-    >. You should also subscribe to
-    <a href="https://news.vuejs.org" target="_blank" rel="noopener">our mailing list</a> and follow
-    the official
-    <a href="https://twitter.com/vuejs" target="_blank" rel="noopener">@vuejs</a>
-    twitter account for latest news in the Vue world.
+    <a href="https://www.vuejs.org" target="_blank" rel="noopener">Vue</a> + 
+    <a href="https://vuex.vuejs.org/zh/" target="_blank" rel="noopener">vuex</a> + 
+    <a href="https://router.vuejs.org/zh/" target="_blank" rel="noopener">vue-router</a> + 
+    <a href="https://webpack.docschina.org/" target="_blank" rel="noopener">webpack</a>
+    <br />
+    <a href="https://react.docschina.org/" target="_blank" rel="noopener">React</a> + 
+    <a href="https://cn.redux.js.org/" target="_blank" rel="noopener">redux</a> + 
+    <a href="http://react-guide.github.io/" target="_blank" rel="noopener">react-router</a> + 
+    <a href="https://webpack.docschina.org/" target="_blank" rel="noopener">webpack</a>
+    <br />
+    <a href="https://www.w3school.com.cn/html/html5_intro.asp" target="_blank" rel="noopener">HTML5</a> + 
+    <a href="https://www.runoob.com/css3/css3-tutorial.html" target="_blank" rel="noopener">css3</a> 
+    <br />
+    <a href="http://nodejs.org/" target="_blank" rel="noopener">Nodejs</a>
+    <br />
+    <a href="https://developers.weixin.qq.com/miniprogram/dev/framework/" target="_blank" rel="noopener">小程序开发</a>
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <SupportIcon />
     </template>
-    <template #heading>Support Vue</template>
+    <template #heading>爱好</template>
 
-    As an independent project, Vue relies on community backing for its sustainability. You can help
-    us by
-    <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
+    <a href="https://baike.baidu.com/item/%E8%B7%91%E6%AD%A5/4510250" target="_blank" rel="noopener">跑步</a>
+    + 
+    <a href="https://baike.baidu.com/item/%E9%9F%B3%E4%B9%90/61907" target="_blank" rel="noopener">音乐</a>
+    + 
+    <a href="https://baike.baidu.com/item/%E8%A7%86%E9%A2%91/321962" target="_blank" rel="noopener">视频</a>
   </WelcomeItem>
 </template>
