@@ -21,6 +21,7 @@ import TheWelcome from "../components/TheWelcome.vue";
         <a href="/introduce" target="_blank">个人介绍</a>
         <a href="/music" target="_blank">听音乐</a>
         <a href="/shop" target="_blank">购物</a>
+        <a href="/demos" target="_blank">查看vue组件</a>
       </nav>
     </div>
   </header>
