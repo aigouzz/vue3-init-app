@@ -69,6 +69,10 @@ import SupportIcon from "./icons/IconSupport.vue";
     <br />
     <a href="http://nodejs.org/" target="_blank" rel="noopener">Nodejs</a>
     <br />
+    <a href="https://www.tslang.cn/index.html" target="_blank" rel="noopener">Typescript</a>
+    <br />
+    <a href="https://vitejs.cn/" target="_blank" rel="noopener">vite</a>
+    <br />
     <a href="https://developers.weixin.qq.com/miniprogram/dev/framework/" target="_blank" rel="noopener">小程序开发</a>
   </WelcomeItem>
 
