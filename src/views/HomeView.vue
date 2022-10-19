@@ -19,6 +19,7 @@ import TheWelcome from "../components/TheWelcome.vue";
 
       <nav>
         <a href="/dist" target="_blank">前端架构</a>
+        <a href="/vue2" target="_blank">vue2源码</a>
         <a href="/music" target="_blank">听音乐</a>
         <a href="/shop" target="_blank">购物</a>
         <a href="/demos" target="_blank">查看vue组件</a>
