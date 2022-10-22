@@ -11,11 +11,17 @@ defineProps<{
       欢迎关注我的博客，详情请阅读
       <br />
       <a href="/dist" target="_blank" rel="noopener">前端架构项目</a> +
-      <a href="/vue2" target="_blank" rel="noopener">vue2源码解析</a> +
+      <a href="/vue2" target="_blank" rel="noopener">vue2源码解析</a>
+      <br />
       <a href="/vue3" target="_blank" rel="noopener">vue3源码解析</a> +
-      <a href="/react" target="_blank" rel="noopener">react源码解析</a> +
+      <a href="/react" target="_blank" rel="noopener">react源码解析</a>
+      <br />
+      <a href="/webpack" target="_blank" rel="noopener">Webpack源码解析</a> +
+      <a href="/algorithm" target="_blank" rel="noopener">算法-leetcode解析</a>
+      <br />
       <a href="/music" target="_blank" rel="noopener">网易云音乐项目</a> +
-      <a href="/shop" target="_blank" rel="noopener">商城项目</a> +
+      <a href="/shop" target="_blank" rel="noopener">商城项目</a>
+      <br />
       <a href="/demos" target="_blank" rel="noopener">vue3组件</a>
     </h3>
   </div>

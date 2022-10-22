@@ -22,6 +22,8 @@ import TheWelcome from "../components/TheWelcome.vue";
         <a href="/vue2" target="_blank">vue2源码</a>
         <a href="/vue3" target="_blank">vue3源码</a>
         <a href="/react" target="_blank">react源码</a>
+        <a href="/webpack" target="_blank">webpack源码</a>
+        <a href="/algorithm" target="_blank">算法-leetcode解析</a>
         <a href="/music" target="_blank">听音乐</a>
         <a href="/shop" target="_blank">购物</a>
         <a href="/demos" target="_blank">查看vue组件</a>
