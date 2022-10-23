@@ -18,15 +18,76 @@ import TheWelcome from "../components/TheWelcome.vue";
       <LeftMessage msg="个人博客" />
 
       <nav>
-        <a href="/dist" target="_blank">前端架构</a>
-        <a href="/vue2" target="_blank">vue2源码</a>
-        <a href="/vue3" target="_blank">vue3源码</a>
-        <a href="/react" target="_blank">react源码</a>
-        <a href="/webpack" target="_blank">webpack源码</a>
-        <a href="/algorithm" target="_blank">算法-leetcode解析</a>
-        <a href="/music" target="_blank">听音乐</a>
-        <a href="/shop" target="_blank">购物</a>
-        <a href="/demos" target="_blank">查看vue组件</a>
+        <div class="common">
+          <a href="/dist" target="_blank">
+            前端架构
+            <i class="prev"></i>
+            <i class="next"></i>
+          </a>
+        </div>
+        <div class="common">
+          <a href="/vue2" target="_blank">
+            vue2源码
+            <i class="prev"></i>
+            <i class="next"></i>
+          </a>
+        </div>
+        <div class="common">
+          <a href="/vue3" target="_blank">
+            vue3源码
+            <i class="prev"></i>
+            <i class="next"></i>
+          </a>
+        </div>
+        <div class="common">
+          <a href="/react" target="_blank">
+            react源码
+            <i class="prev"></i>
+            <i class="next"></i>
+          </a>
+        </div>
+        <div class="common">
+          <a href="/redux" target="_blank">
+            redux源码
+            <i class="prev"></i>
+            <i class="next"></i>
+          </a>
+        </div>
+        <div class="common">
+          <a href="/webpack" target="_blank">
+            webpack源码
+            <i class="prev"></i>
+            <i class="next"></i>
+          </a>
+        </div>
+        <div class="common">
+          <a href="/algorithm" target="_blank">
+            算法-leetcode解析
+            <i class="prev"></i>
+            <i class="next"></i>
+          </a>
+        </div>
+        <div class="common">
+          <a href="/music" target="_blank">
+            听音乐
+            <i class="prev"></i>
+            <i class="next"></i>
+          </a>
+        </div>
+        <div class="common">
+          <a href="/shop" target="_blank">
+            购物
+            <i class="prev"></i>
+            <i class="next"></i>
+          </a>
+        </div>
+        <div class="common">
+          <a href="/demos" target="_blank">
+            查看vue组件
+            <i class="prev"></i>
+            <i class="next"></i>
+          </a>
+        </div>
       </nav>
     </div>
   </header>
@@ -60,15 +121,52 @@ nav a.router-link-exact-active {
 nav a.router-link-exact-active:hover {
   background-color: transparent;
 }
-
-nav a {
+nav .common{
   display: inline-block;
+  overflow: hidden;
+  box-sizing: content-box;
+  height: 26px;
+}
+nav a {
+  display: block;
   padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
+  /* border-left: 1px solid var(--color-border); */
+  border: 1px solid transparent;
+  height: 24px;
+  position: relative;
+}
+nav a .prev{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: 0 0;
+  background: goldenrod;
+  animation: rotating 3s linear infinite;
+  width: 100%;
+  height: 48px;
+  z-index: -2;
+}
+nav a .next{
+  background: var(--vt-c-white);
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 24px;
+}
+@keyframes rotating{
+  from{
+    transform: rotate(0);
+  }
+  to{
+    transform: rotate(360deg);
+  }
 }
 
 nav a:first-of-type {
-  border: 0;
+  /* border: 0; */
 }
 
 @media (min-width: 1024px) {
