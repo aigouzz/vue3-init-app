@@ -26,6 +26,13 @@ import TheWelcome from "../components/TheWelcome.vue";
           </a>
         </div>
         <div class="common">
+          <a href="/pc_shop" target="_blank">
+            pc商城项目
+            <i class="prev"></i>
+            <i class="next"></i>
+          </a>
+        </div>
+        <div class="common">
           <a href="/vue2" target="_blank">
             vue2源码
             <i class="prev"></i>

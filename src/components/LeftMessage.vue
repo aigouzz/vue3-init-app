@@ -22,6 +22,7 @@ defineProps<{
       <a href="/music" target="_blank" rel="noopener">网易云音乐项目</a> +
       <a href="/shop" target="_blank" rel="noopener">商城项目</a>
       <br />
+      <a href="/pc_shops" target="_blank" rel="noopener">pc商城项目</a>
       <a href="/demos" target="_blank" rel="noopener">vue3组件</a>
     </h3>
   </div>
